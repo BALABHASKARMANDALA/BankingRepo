@@ -1,0 +1,33 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bankenquiryservice-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Bankenquiryservice
+  template:
+    metadata:
+      labels:
+        app: Bankenquiryservice
+    spec:
+      containers:
+      - name: bankingrepos
+        image: bankcr.azurecr.io/bankingrepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: bankservicesn
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: bankenquiryservice
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: Bankenquiryservice
