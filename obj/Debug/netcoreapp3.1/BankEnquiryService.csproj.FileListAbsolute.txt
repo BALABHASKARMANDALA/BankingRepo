@@ -47,3 +47,4 @@ F:\CTS Training\OnlineBankingApplication\BankEnquiryService\obj\Debug\netcoreapp
 F:\CTS Training\OnlineBankingApplication\BankEnquiryService\obj\Debug\netcoreapp3.1\BankEnquiryService.pdb
 F:\CTS Training\OnlineBankingApplication\BankEnquiryService\obj\Debug\netcoreapp3.1\BankEnquiryService.genruntimeconfig.cache
 F:\CTS Training\OnlineBankingApplication\BankEnquiryService\obj\Debug\netcoreapp3.1\BankEnquiryService.csprojAssemblyReference.cache
+F:\CTS Training\OnlineBankingApplication\BankEnquiryService\bin\Debug\netcoreapp3.1\BankEnquiryService.yaml
